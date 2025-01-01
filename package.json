@@ -1,0 +1,12 @@
+{
+  "name": "opensu-unitunes.github.io",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
