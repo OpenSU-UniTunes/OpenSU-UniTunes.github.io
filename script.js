@@ -1,4 +1,4 @@
-fetch('https://accounts.spotify.com/api', {
+fetch('https://api.spotify.com/v1/', {
   method: 'GET',
   headers: {
     'Authorization': 'BQCZ96F7qfQF4BH6ZB7vvqFnXLBuOXIhlf2B1VB4GTpzKJoYmu10hY3XXE_vB1-w7Uji7_UirJhM0FXvgwH2bv3vyHkZVqvkO94X2N9XVarVEoB3fro'
