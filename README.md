@@ -1,3 +1,4 @@
 [![pages-build-deployment](https://github.com/OpenSU-UniTunes/OpenSU-UniTunes.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/OpenSU-UniTunes/OpenSU-UniTunes.github.io/actions/workflows/pages/pages-build-deployment)
 [![Node.js CI](https://github.com/OpenSU-UniTunes/OpenSU-UniTunes.github.io/actions/workflows/setup-node.js.yml/badge.svg)](https://github.com/OpenSU-UniTunes/OpenSU-UniTunes.github.io/actions/workflows/setup-node.js.yml)
 [![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/OpenSU-UniTunes/OpenSU-UniTunes.github.io/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/OpenSU-UniTunes/OpenSU-UniTunes.github.io/actions/workflows/jekyll-gh-pages.yml)
+[![Node.js Package](https://github.com/OpenSU-UniTunes/OpenSU-UniTunes.github.io/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/OpenSU-UniTunes/OpenSU-UniTunes.github.io/actions/workflows/npm-publish.yml)
