@@ -1,0 +1,28 @@
+<!DOCTYPE html>.
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Music Request System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="request">
+        <h1>Spotify Music Request System</h1>
+        <form id="songSearchForm">
+            <label for="artist">Artist:</label>
+            <input type="text" id="artist" name="artist" required>
+            
+            <label for="song">Song Title:</label>
+            <input type="text" id="song" name="song" required>
+            
+            <button type="submit">Search</button>
+        </form>
+        
+        <div id="searchResults"></div>
+        
+        <button id="addToQueue" disabled>Add to Queue</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
