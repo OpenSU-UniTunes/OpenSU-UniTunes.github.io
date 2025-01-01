@@ -1,4 +1,5 @@
-const token = process.env.SPOTIFY_ACCESS_TOKEN || 'BQCZ96F7qfQF4BH6ZB7vvqFnXLBuOXIhlf2B1VB4GTpzKJoYmu10hY3XXE_vB1-w7Uji7_UirJhM0FXvgwH2bv3vyHkZVqvkO94X2N9XVarVEoB3fro'; 
+
+const token ='BQCZ96F7qfQF4BH6ZB7vvqFnXLBuOXIhlf2B1VB4GTpzKJoYmu10hY3XXE_vB1-w7Uji7_UirJhM0FXvgwH2bv3vyHkZVqvkO94X2N9XVarVEoB3fro'; 
 
 document.getElementById('songSearchForm').addEventListener('submit', function(e) {
     e.preventDefault();
