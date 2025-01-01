@@ -1,1 +1,2 @@
 [![pages-build-deployment](https://github.com/OpenSU-UniTunes/OpenSU-UniTunes.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/OpenSU-UniTunes/OpenSU-UniTunes.github.io/actions/workflows/pages/pages-build-deployment)
+[![Node.js CI](https://github.com/OpenSU-UniTunes/OpenSU-UniTunes.github.io/actions/workflows/setup-node.js.yml/badge.svg)](https://github.com/OpenSU-UniTunes/OpenSU-UniTunes.github.io/actions/workflows/setup-node.js.yml)
