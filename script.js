@@ -1,3 +1,18 @@
+fetch('https://accounts.spotify.com/api', {
+  method: 'GET',
+  headers: {
+    'Authorization': 'BQCZ96F7qfQF4BH6ZB7vvqFnXLBuOXIhlf2B1VB4GTpzKJoYmu10hY3XXE_vB1-w7Uji7_UirJhM0FXvgwH2bv3vyHkZVqvkO94X2N9XVarVEoB3fro'
+  }
+})
+.then(response => {
+  if (!response.ok) {
+    throw new Error(`HTTP error! Status: ${response.status}`);
+  }
+  return response.json();
+})
+.then(data => console.log(data))
+.catch(error => console.error('Error during search:', error));
+
 const token = 'BQCZ96F7qfQF4BH6ZB7vvqFnXLBuOXIhlf2B1VB4GTpzKJoYmu10hY3XXE_vB1-w7Uji7_UirJhM0FXvgwH2bv3vyHkZVqvkO94X2N9XVarVEoB3fro'; // Replace with your new access token
 
 document.getElementById('songSearchForm').addEventListener('submit', function(e) { 
